@@ -14,7 +14,7 @@ BaselineOfMaxW >> baseline: spec [
 			with: [ 
 			spec repository: 'github://pharo-contributions/XML-XMLWriter' ].
 		spec
-			baseline: 'Seaside'
+			baseline: 'Seaside3'
 			with: [ 
 			spec repository: 'github://SeasideSt/Seaside' ].
 		spec
