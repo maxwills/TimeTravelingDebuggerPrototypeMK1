@@ -19,7 +19,7 @@ BaselineOfMaxW >> baseline: spec [
 			with: [ spec requires: #( 'XMLWriter') ];
 			package: 'MaxW-Base-Tests' with: [ spec requires: #( 'MaxW-Base') ];
 			package: 'MaxW-Debugger' with: [ spec requires: #( 'MaxW-Base') ];
-			package: 'MaxW-Model' with: [ spec requires: #( 'MaxW-Base') ];
+			package: 'MaxW-Models' with: [ spec requires: #( 'MaxW-Base') ];
 			package: 'MaxW-UI' with: [ spec requires: #( 'MaxW-Base') ];
 			group: 'default' with: #( 'MaxW-Base'  'MaxW-Base-Tests'
 				   'MaxW-Debugger' 'MaxW-Models' 'MaxW-UI') ].
