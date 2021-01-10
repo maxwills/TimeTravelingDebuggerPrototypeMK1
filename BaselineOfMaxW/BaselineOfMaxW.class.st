@@ -19,7 +19,7 @@ BaselineOfMaxW >> baseline: spec [
 			spec repository: 'github://SeasideSt/Seaside' ].
 		spec
 			package: 'MaxW-Base' 
-			with: [ spec requires: #( 'XMLWriter' 'Seaside') ];
+			with: [ spec requires: #( 'XMLWriter' 'Seaside3') ];
 			package: 'MaxW-Base-Tests' with: [ spec requires: #( 'MaxW-Base') ];
 			package: 'MaxW-Debugger' with: [ spec requires: #( 'MaxW-Base') ];
 			package: 'MaxW-Models' with: [ spec requires: #( 'MaxW-Base') ];
