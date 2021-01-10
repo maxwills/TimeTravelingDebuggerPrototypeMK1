@@ -21,6 +21,6 @@ BaselineOfMaxW >> baseline: spec [
 			package: 'MaxW-Debugger' with: [ spec requires: #( 'MaxW-Base') ];
 			package: 'MaxW-Model' with: [ spec requires: #( 'MaxW-Base') ];
 			package: 'MaxW-UI' with: [ spec requires: #( 'MaxW-Base') ];
-			group: 'default' with: #( 'MaxW-Base'  MaxW-Base-Tests
-				   'MaxW-Debugger' 'MaxW-Model' 'MaxW-UI') ].
+			group: 'default' with: #( 'MaxW-Base'  'MaxW-Base-Tests'
+				   'MaxW-Debugger' 'MaxW-Models' 'MaxW-UI') ].
 ]
