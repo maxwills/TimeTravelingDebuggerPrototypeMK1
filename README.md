@@ -2,6 +2,10 @@
 
 ## What is this
 This is a prototype for a "light-weight-traced-based" time-traveling debugger. It provides basic step forward and step backward functionalities for certain deterministic code scenarios. It also provides a visualization tool.
+### Dependencies.
+The prototype uses other repositories. They'll be installed automatically if the installation intructions are followed.
+- [Seaside](https://github.com/SeasideSt/Seaside) (Baseline Seaside3)
+- [XMLWriter](https://github.com/pharo-contributions/XML-XMLWriter) (Baseline XMLWriter)
 
 ## Installation, step by step
 1. Create an empty Pharo 9, 64 bits image.  
