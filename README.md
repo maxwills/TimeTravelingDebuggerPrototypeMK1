@@ -5,7 +5,7 @@ This is a prototype for a "light-weight-traced-based" time-traveling debugger. I
 
 ## Installation, step by step
 1. Create an empty Pharo 9, 64 bits image.  
-   Installed thorugh Pharo Launcher in 2021/01/11.  
+   Installed through Pharo Launcher in 2021/01/11.  
    Latest image at the date of writing: [Pharo 9.0 (80)](http://files.pharo.org/image/80/latest-64.zip).  
    Ensure that the **image path**, including it's name is the **shortest** posible. (I had troubles with long paths and seaside3 baseline)
 2. Install the prototype baseline. For that, run this code:
