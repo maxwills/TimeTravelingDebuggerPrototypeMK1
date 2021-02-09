@@ -3,7 +3,7 @@
 ## What is this
 This is a prototype for a "light-weight-traced-based" time-traveling debugger. It provides basic step forward and step backward functionalities for certain deterministic code scenarios. It also provides a visualization tool.
 ### Dependencies.
-The prototype uses other repositories. They'll be installed automatically if the installation intructions are followed.
+The prototype uses other repositories. They'll be installed automatically if the installation instructions are followed.
 - [Seaside](https://github.com/SeasideSt/Seaside) (Baseline Seaside3)
 - [XMLWriter](https://github.com/pharo-contributions/XML-XMLWriter) (Baseline XMLWriter)
 
